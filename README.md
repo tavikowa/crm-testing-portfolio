@@ -18,8 +18,10 @@ The project focuses on verifying a **SuiteCRM** system, covering functional test
 | :--- | :--- |
 | `01_Functional_Testing_CRM` | Test Plans, Test Scenarios (Excel), and Workflow analysis. |
 | `02_Bug_Reports` | Detailed bug reports with steps to reproduce and severity assessment. |
-| `03_SQL_Verification` | SQL queries designed to verify backend data integrity. |
+| `03_SQL_Verification` | SQL queries designed to verify backend data integrity.* |
 | `04_API_Tests` | Postman collection for backend testing (REST API). |
+
+*Queries are written purely for demonstration due to unavailable database access; they do not mirror the live **SuiteCRM** database structure.
 
 ## 👩‍💻 About Me
 Aspiring QA Engineer with a strong focus on accuracy and process understanding.
