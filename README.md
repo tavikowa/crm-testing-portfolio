@@ -22,6 +22,7 @@ The project focuses on verifying a **SuiteCRM** system, covering functional test
 | `04_API_Tests` | Postman collection for backend testing (REST API).** |
 
 *Queries are written purely for demonstration due to unavailable database access; they do not mirror the live **SuiteCRM** database structure.
+
 **Due to authentication restrictions on the public SuiteCRM demo, API connectivity and assertion logic were demonstrated using the reliable *JSONPlaceholder* and *ReqRes* public APIs.
 
 ## 👩‍💻 About Me

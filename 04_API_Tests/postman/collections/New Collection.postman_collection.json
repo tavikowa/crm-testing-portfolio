@@ -125,7 +125,7 @@
     {
       "id": "eca1c381-8091-4207-a74f-15f570990433",
       "key": "baseUrl",
-      "value": ""
+      "value": "https://jsonplaceholder.typicode.com"
     }
   ]
 }
