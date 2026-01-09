@@ -18,14 +18,14 @@ Allowing non-numeric data in phone fields may cause integration failures with VO
 1. Navigate to **Sales** -> **Leads**.
 2. Click **Create Lead**.
 3. Fill in mandatory fields (Last Name).
-4. In the **Office Phone** field, enter the string: `test!@#$%^&*()`.
+4. In the **Office Phone** field, enter the string: `TestingNumber!@#$%^&&*()`.
 5. Click **Save**.
 
 ### 📉 Expected Result
 The system should display a validation error: "Invalid phone number format" OR restrict input to numeric characters/standard phone symbols (+, -, space).
 
 ### 📈 Actual Result
-The system saves the Lead successfully. The "Office Phone" field displays `test!@#$%^&*()` on the detail view.
+The system saves the Lead successfully. The "Office Phone" field displays `TestingNumber!@#$%^&&*()` on the detail view.
 
 ### 📸 Evidence
 ![Screenshot of invalid phone data](./assets/Bug_001_Lead_Phone_Val.png)
